@@ -1,0 +1,33 @@
+{
+  "name": "gulp-rev-version-example",
+  "version": "1.0.0",
+  "description": "It's a example to show how to add file version on gulp process.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qiaolevip/gulp-rev-version-example.git"
+  },
+  "keywords": [
+    "gulp",
+    "add-version",
+    "file-version",
+    "minify"
+  ],
+  "scripts": {
+    "start": "gulp clean && gulp",
+    "prod": "gulp clean && gulp prod",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@HappyJoe <qiaole@vip.qq.com> (http://each.sinaapp.com | http://qiaole.sinaapp.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.8",
+    "gulp-minify-html": "^1.0.6",
+    "gulp-rev": "^7.0.0",
+    "gulp-rev-collector": "^1.0.3",
+    "gulp-sequence": "^0.4.5",
+    "gulp-uglify": "^1.5.3"
+  }
+}
