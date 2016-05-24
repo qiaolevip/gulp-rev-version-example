@@ -1,16 +1,16 @@
 ## How to Use?
 
-# method 1
+### method 1
 ```
 $ gulp
 ```
 
-# method 2
+### method 2
 ```
 $ gulp build
 ```
 
-# method 3
+### method 3
 ```
 $ npm run prod
 ```
