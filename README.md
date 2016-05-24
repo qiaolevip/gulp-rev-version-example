@@ -7,7 +7,7 @@ $ gulp
 
 # method 2
 ```
-$ gulp prod
+$ gulp build
 ```
 
 # method 3
